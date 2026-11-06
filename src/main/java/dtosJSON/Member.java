@@ -6,9 +6,6 @@ import java.util.List;
 
 public class Member {
 
-    @JsonProperty("member_id")
-    private Integer memberId;
-
     @JsonProperty("first_name")
     private String firstName;
 
@@ -34,9 +31,6 @@ public class Member {
     private List<Role> roles;
 
     public Member() {}
-
-    public Integer getMemberId() { return memberId; }
-    public void setMemberId(Integer memberId) { this.memberId = memberId; }
 
     public String getFirstName() { return firstName; }
     public void setFirstName(String firstName) { this.firstName = firstName; }

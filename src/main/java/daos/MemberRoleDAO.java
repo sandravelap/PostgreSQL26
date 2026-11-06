@@ -3,21 +3,12 @@ package daos;
 import java.sql.Date;
 
 public class MemberRoleDAO {
-    private Integer memberRoleId;
     private Integer memberId;
     private Integer roleId;
     private Date startDate;
     private Date endDate;
 
     public MemberRoleDAO() {
-    }
-
-    public Integer getMemberRoleId() {
-        return memberRoleId;
-    }
-
-    public void setMemberRoleId(Integer memberRoleId) {
-        this.memberRoleId = memberRoleId;
     }
 
     public Integer getMemberId() {
